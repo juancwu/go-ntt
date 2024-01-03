@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/charmbracelet/log"
+	charmlog "github.com/charmbracelet/log"
 	dotenv "github.com/joho/godotenv"
 
 	"github.com/juancwu/go-ntt/cmd"
@@ -12,7 +12,7 @@ import (
 func main() {
 	// load env
 	if err := dotenv.Load(); err != nil {
-		log.Fatal(err)
+		charmlog.Fatal(err)
 	}
 
 	// setup logger so that the rest of the application can log things in a formatted manner

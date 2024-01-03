@@ -27,5 +27,9 @@ func NewLogger() *log.Logger {
 }
 
 func Log() *log.Logger {
+	if _log == nil {
+		_log = NewLogger()
+	}
+
 	return _log
 }
