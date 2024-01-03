@@ -47,7 +47,7 @@ func Execute() error {
 			}
 
 			if !viper.IsSet("source") {
-				return fmt.Errorf("The 'source' property is missing in the config file")
+				return fmt.Errorf("The 'source' property is missing in the config file. This defines where the migrations files are located.")
 			}
 
 			if err := viper.Unmarshal(&config); err != nil {
