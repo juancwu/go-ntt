@@ -19,3 +19,15 @@
 
 # Go workspace file
 go.work
+
+# Builds
+build/
+
+# Test Migrations folder
+migrations
+
+# Test config file
+.gonttrc.yaml
+
+# Env
+.env
