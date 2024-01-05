@@ -11,7 +11,7 @@ const (
 	timeFormat = "20060102150405"
 	timezone   = "UTC"
 
-	sourceFlagUsage = "This is the destination the migrations are located. This should be relative to the CWD or an absolute path"
+	dirFlagUsage = "This is the destination the migrations are located. This should be relative to the CWD or an absolute path"
 )
 
 func Execute() error {
