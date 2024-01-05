@@ -5,7 +5,7 @@ import (
 	dotenv "github.com/joho/godotenv"
 
 	"github.com/juancwu/go-ntt/cmd"
-	"github.com/juancwu/go-ntt/internal/config"
+	"github.com/juancwu/go-ntt/config"
 	"github.com/juancwu/go-ntt/util"
 )
 
